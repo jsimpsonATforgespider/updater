@@ -14,7 +14,7 @@
    }
 
    function updaterCall(){
-     require_once plugin_dir_path(__FILE__) . 'updater.php';
+     require_once('updater.php');
      $updater = new FS_Updater();
      $updater->set_username('jsimpsonATforgespider'); // add github username here
      $updater->set_repository('updater'); // add plugin repo here
