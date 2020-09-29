@@ -1,6 +1,6 @@
 <?php
 
-class Smashing_Updater {
+class FS_Updater {
 
 	private $file;
 
