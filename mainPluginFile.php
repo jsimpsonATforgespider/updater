@@ -11,7 +11,7 @@
 
    function __construct(){
      require_once plugin_dir_path(__FILE__) . 'updater.php';
-     updaterCall();
+     $this->updaterCall();
    }
 
    function updaterCall(){
