@@ -10,11 +10,11 @@
  class testPlugin{
 
    function __construct(){
-     require_once plugin_dir_path(__FILE__) . 'updater.php';
      $this->updaterCall();
    }
 
    function updaterCall(){
+     require_once plugin_dir_path(__FILE__) . 'updater.php';
      $updater = new FS_Updater();
      $updater->set_username('jsimpsonATforgespider'); // add github username here
      $updater->set_repository('updater'); // add plugin repo here
